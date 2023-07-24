@@ -1,3 +1,4 @@
 #!/bin/bash
-echo -e "\nYou entered: \n$1 $2 $3 $4 $5 $6 $7 $8 $9 ${10} ${11}"
+myArr=(one two three four five)
+echo "odd numbers: ${myArr[0]}, ${myArr[2]}, ${myArr[4]}"
 exit 0
