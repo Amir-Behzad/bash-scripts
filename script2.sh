@@ -1,5 +1,5 @@
 #!/bin/bash
-myArr=(one two three four five)
-myArr+=(six seven)
-echo "odd numbers: ${myArr[0]}, ${myArr[2]}, ${myArr[4]}, ${myArr[-1]}"
+declare -a array
+array=(one two three)
+echo "first element of array: ${array[0]}"
 exit 0
