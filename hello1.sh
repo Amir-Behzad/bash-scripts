@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Hello from $(basename $0)"
-echo "How are you $*?"
+echo "Nice to meet you $1 "
+echo "Did you just say $*?"
 exit 0
 
