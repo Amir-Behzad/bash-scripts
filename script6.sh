@@ -18,3 +18,19 @@ echo "The value of \"a\" is incremented by two: $a"
 echo
 
 
+# In a 'for' loop (really, a type of dicguised assignment):
+# the -n flag in echo command results in not adding a newline at the end.
+
+echo -n "Values of \"a\" in the loop are: "
+for a in 1 3 5 7 9 11
+do
+    echo -n "$a "
+done 
+
+echo
+echo
+
+# In a 'read' statement (also a type of assignment):
+echo -n "Enter \"name\": "
+read name
+echo -e "Hello $name."
